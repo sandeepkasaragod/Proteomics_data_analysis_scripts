@@ -35,7 +35,7 @@ def convert_txt(input_dir, outdir):
 def create_dir(outdir):
     try:
         directory_path = pathlib.Path(outdir + "/")
-        if not directory_path.is_dir(): #Check if directory not exist
+        if not directory_path.is_dir(): #Check if directory exist
             directory_path.mkdir(parents=False, mode=511)
         else:
             print ("Directory already exist " + outdir)
