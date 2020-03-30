@@ -46,7 +46,6 @@ def create_dir(outdir):
         exit(0)
              
 if __name__ == "__main__":
-    #print (help(pathlib))
     if len(sys.argv) == 3:
         create_dir(sys.argv[2])
         convert_txt(sys.argv[1], sys.argv[2])
@@ -54,19 +53,3 @@ if __name__ == "__main__":
         print ("Usage : <input directory> <output direcotry>")
         print ("Example: D:\input_folder D:\output_folder")
                               
-
-        
-##    loc = ("Gowda_CusVarDB_Supplementary_table2.xlsx") 
-##  
-##wb = xlrd.open_workbook(loc) 
-##sheet = wb.sheet_by_index(0) 
-##  
-###sheet.cell_value(0, 0) 
-##write_file = open("TEST.txt", 'w')
-##for rows in range(sheet.nrows):
-##    its = ""
-##    for itms in sheet.row_values(rows):
-##        its = its + "\t" + str(itms)
-##    write_file.write(its.strip() + '\n')
-##    #[write_file.write(" ".join(row)+'\n') for row in sheet.row_values(rows)]
-##    
