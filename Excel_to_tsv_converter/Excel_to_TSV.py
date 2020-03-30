@@ -2,7 +2,7 @@ import os
 import sys
 import pip
 
-#Check if the package is installed or not
+#Check if the dependency packages are installed
 try:
     import xlrd
 except:
