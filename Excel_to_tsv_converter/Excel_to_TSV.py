@@ -50,6 +50,7 @@ if __name__ == "__main__":
         create_dir(sys.argv[2])
         convert_txt(sys.argv[1], sys.argv[2])
     else:
-        print ("Usage : <input directory> <output direcotry>")
-        print ("Example: D:\input_folder D:\output_folder")
+        print ("Usage : Excel_to_TSV.py <input directory> <output direcotry>")
+        print ("Example in Windows: Excel_to_TSV.py D:\input_folder D:\output_folder")
+        print ("Example in Linux: Excel_to_TSV.py mnt/d/input_folder mnt/d/output_folder")
                               
