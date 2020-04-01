@@ -68,5 +68,5 @@ if __name__== "__main__":
         #create_dir(sys.argv[3])
         download(sys.argv[1], sys.argv[2])
     else:
-        print ("Usage : Bulk_file_downloader.py <input_file> <threads>")
-        print ("Example : Bulk_file_downloader.py D:\input_folder\input_file.txt 5")
+        print ("Usage: Bulk_file_downloader.py <input_file> <threads>")
+        print ("Example: Bulk_file_downloader.py D:\input_folder\input_file.txt 5")
