@@ -8,13 +8,13 @@ import pip
 try:
     import xlrd
 except:
-    print ("Module does not exist, run command in terminal/command_prompt: pip install xlrd")
+    #print ("Module does not exist, run command in terminal/command_prompt: pip install xlrd")
     print ("installing module")
     pip.main(["install", "xlrd"])
 try:
     import pathlib
 except:
-    print ("Modules does not exist, run command in terminal/command_prompt: pip install pathlib")
+    #print ("Modules does not exist, run command in terminal/command_prompt: pip install pathlib")
     print ("installing module")
     pip.main(["install", "pathlib"])
 
