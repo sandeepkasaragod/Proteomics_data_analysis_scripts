@@ -32,7 +32,7 @@ def convert_txt(input_dir, outdir):
                     each_item = each_item + '\t' + str(items)
                 write_file.write(each_item.strip() + '\n')
             write_file.close()
-            print "Files Finished: " + list_file
+            print ("Files Finished: " + list_file)
 
 def create_dir(outdir):
     try:
